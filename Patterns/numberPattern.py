@@ -30,18 +30,14 @@ while(i<=n):
     while(space<=n-i):
         print(" ",end="")
         space=space+1
-    j=1
-    k=i
-    while(j<=i):
-        print(k,end="")
-        j=j+1
-        k=k+1
-    j=1
-    k=2*i-2
-    while(j<=i-1):
-        print(k,end="")
-        k=k-1 
-        j=j+1
+    j=i
+    while(j<2*i):
+        print(j,end="")
+        j+=1
+    j=2*i-2
+    while(j>i-1):
+        print(j,end="")
+        j-=1
     print()
-    i=i+1
+    i+=1
     
